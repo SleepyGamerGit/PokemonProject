@@ -1,6 +1,7 @@
 package pokemon.model;
 
-public class Ghost
+public interface Ghost
 {
-
+	public void shadowBall();
+	public int shadowClaw();
 }

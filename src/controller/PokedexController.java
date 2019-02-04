@@ -1,6 +1,6 @@
 package controller;
 
-public class PokemonController
+public class PokedexController
 {
 public void start()
 {

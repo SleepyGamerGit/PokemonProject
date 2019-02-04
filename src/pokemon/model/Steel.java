@@ -1,6 +1,8 @@
 package pokemon.model;
 
-public class Steel
+public interface Steel
 {
-
+	public void harden();
+	public int datOneSteelMove();
+	
 }
