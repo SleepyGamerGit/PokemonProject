@@ -19,11 +19,11 @@ public class Probopass extends Pokemon implements Rock, Steel
 	
 	public void harden()
 	{
-		System.out.println("You used a dumb move");
+		System.out.println("You used a dumb move: " + getEnhancementModifier());
 	}
 	
 	public int datOneSteelMove()
-	{
+	{`
 		//change later
 		return 156;
 	}

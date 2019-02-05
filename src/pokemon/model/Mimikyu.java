@@ -1,6 +1,6 @@
 package pokemon.model;
 
-public class Mimikyu extends Pokemon implements Ghost
+public class Mimikyu extends Pokemon implements Ghost, Fariy
 {
 	public Mimikyu(int number, String name)
 	{
@@ -16,5 +16,16 @@ public class Mimikyu extends Pokemon implements Ghost
 	{
 		//change later
 		return 156;
+	}
+	
+	public void moonblast()
+	{
+		System.out.println("Praise the moon: " + getAttackPoints());
+	}
+	
+	public int cuteness()
+	{
+		//change later
+		return 1895;
 	}
 }

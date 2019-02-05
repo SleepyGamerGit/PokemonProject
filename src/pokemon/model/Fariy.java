@@ -1,6 +1,7 @@
 package pokemon.model;
 
-public class Fariy
+public interface Fariy
 {
-
+	public void moonblast();
+	public int cuteness();
 }
