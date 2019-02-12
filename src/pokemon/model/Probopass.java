@@ -23,7 +23,7 @@ public class Probopass extends Pokemon implements Rock, Steel
 	}
 	
 	public int datOneSteelMove()
-	{`
+	{
 		//change later
 		return 156;
 	}
