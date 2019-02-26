@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 
 import pokemon.model.Pokemon;
 import pokemon.view.PokedexFrame;
-import pokemon.controller.PokedexController;
+import controller.PokedexController;
 
 class TestPokedexController
 {
