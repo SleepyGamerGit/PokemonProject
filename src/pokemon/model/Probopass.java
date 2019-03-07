@@ -2,9 +2,19 @@ package pokemon.model;
 
 public class Probopass extends Pokemon implements Rock, Steel
 {
-	public Probopass(int number, String name)
+	public Probopass()
 	{
-		super(number, name);
+		super(3212, "Probopass");
+	}
+	
+	public Probopass(String name)
+	{
+		super(3212, name);
+	}
+	
+	public Probopass(int num, String name)
+	{
+		super(num, name);
 	}
 	
 	public void rockTomb()

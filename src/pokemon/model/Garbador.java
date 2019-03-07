@@ -7,6 +7,16 @@ public class Garbador extends Pokemon implements Poison
 		super(number, name);
 	}
 	
+	public Garbador()
+	{
+		super(422, "Garbador");
+	}
+	
+	public Garbador(String name)
+	{
+		super(422, name);
+	}
+	
 	public void toxic()
 	{
 		System.out.println("better version of poison: " + getEnhancementModifier());

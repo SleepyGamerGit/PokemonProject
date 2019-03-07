@@ -16,6 +16,16 @@ public class BigYoshi extends Pokemon implements Ground
 	{
 		super(num, name);
 	}
+
+	public void earthquake()
+	{
+		
+	}
+	
+	public int mudSlap()
+	{
+		return 0;
+	}
 	
 	
 }

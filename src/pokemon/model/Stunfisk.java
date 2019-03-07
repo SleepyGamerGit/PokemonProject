@@ -7,6 +7,16 @@ public class Stunfisk extends Pokemon implements Ground, Electric
 		super(number, name);
 	}
 	
+	public Stunfisk()
+	{
+		super(123, "Stunfisk");
+	}
+	
+	public Stunfisk(String name)
+	{
+		super(123, name);
+	}
+	
 	public void earthquake()
 	{
 		System.out.println("You shake the ground" + getAttackPoints());

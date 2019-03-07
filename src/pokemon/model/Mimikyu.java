@@ -7,6 +7,16 @@ public class Mimikyu extends Pokemon implements Ghost, Fariy
 		super(number, name);
 	}
 	
+	public Mimikyu()
+	{
+		super(4322, "Mimikyu");
+	}
+	
+	public Mimikyu(String name)
+	{
+		super(4322, name);
+	}
+	
 	public void shadowBall()
 	{
 		System.out.println("You make a gaint ball of darkness:" + getAttackPoints());
